@@ -11,7 +11,7 @@ load_dotenv()
 
 def main():
     print("Hello from langchain-course!")
-    # print(os.environ.get("OLLAMA_API_KEY"))
+    print(os.environ.get("OLLAMA_API_KEY"))
     information = """
     Elon Reeve Musk FRS (/ˈiːlɒn/ EE-lon; born June 28, 1971) is a businessman, known for his leadership of Tesla, SpaceX, X (formerly Twitter), and the Department of Government Efficiency (DOGE). Musk has been the wealthiest person in the world since 2021; as of May 2025, Forbes estimates his net worth to be US$424.7 billion.
 
